@@ -1,11 +1,3 @@
-"""
-    Robot Learning
-    Exercise 1
-
-    Extended Kalman Filter
-
-    Polito A-Y 2023-2024
-"""
 import pdb
 
 import numpy as np
@@ -24,7 +16,7 @@ x0 = np.array([np.pi/3, 0.5])
 simulationSteps=400
 totalSimulationTimeVector=np.arange(0, simulationSteps*deltaTime, deltaTime)
 
-# System dynamics (continuous, non-linear) in state-space representation (https://en.wikipedia.org/wiki/State-space_representation)
+# System dynamics (continuous, non-linear) in state-space representation
 def stateSpaceModel(x,t):
     """
         Dynamics may be described as a system of first-order

@@ -19,7 +19,7 @@ def callback(data):
     pub.publish(sensor_obj)
 
 
-def sensor(): 
+def sensor():
     #Subscribe
     rospy.init_node('sensor', anonymous=True)
     rospy.Subscriber('true_variables',Data_state,callback)

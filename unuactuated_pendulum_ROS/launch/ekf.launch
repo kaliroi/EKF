@@ -1,0 +1,5 @@
+<launch>
+	<node name="pendulum" pkg="unuactuated_pendulum" type="pendulum.py" output="screen"/>
+	<node name="sensor" pkg="unuactuated_pendulum" type="sensor.py" output="screen"/>
+	<node name="ekf" pkg="unuactuated_pendulum" type="ekf.py" output="screen"/>
+</launch>
