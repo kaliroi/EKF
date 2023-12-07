@@ -7,14 +7,20 @@
 The simulation is run for 400 timesteps. To run the simulation execute the `ekf_singlependulum/main.py` file. 
 The system was tested using three different covariance EKF $\mathbf{R}$ matrix, in particular with values 0.05, 1 and 10. Following are the results obtained.
 
-![](imgs/EKF_sp_R005.png)
-***<p style="text-align: center;">EKF results for R=0.05</p>***
-
-![](imgs/EKF_sp_R1.png)
-***<p style="text-align: center;">EKF results for R=1</p>***
-
-![](imgs/EKF_sp_R10.png)
-***<p style="text-align: center;">EKF results for R=10</p>***
+<center>
+<p>
+    <img src="imgs/EKF_sp_R005.png" alt>
+    <em>EKF results for R=0.05</em>
+</p>
+<p>
+    <img src="imgs/EKF_sp_R1.png" alt>
+    <em>EKF results for R=1</em>
+</p>
+<p>
+    <img src="imgs/EKF_sp_R10.png" alt>
+    <em>EKF results for R=10</em>
+</p>
+</center>
 
 ## Single Pendulum - ROS
 To run the ROS simulation the following steps need to be followed:
@@ -26,16 +32,28 @@ To run the ROS simulation the following steps need to be followed:
 
 - To plot the system states and the EKF results use the `rqt_plot` command.
 
-![](imgs/sp_rqtplot.png)
-***<p style="text-align: center;">EKF ROS results</p>***
+<center>
+<p>
+    <img src="imgs/sp_rqtplot.png" alt>
+    <em>EKF ROS results</em>
+</p>
+</center>
 
 - To plot the ROS nodes and topics use the `rqt_graph` command.
 
-![](imgs/sp_rqtgraph.png)
-***<p style="text-align: center;">ROS nodes and topics structure</p>***
+<center>
+<p>
+    <img src="imgs/sp_rqtgraph.png" alt>
+    <em>ROS nodes and topics structure</em>
+</p>
+</center>
 
 ## Double Pendulum
 The simulation is run for 4000 timesteps. To run the simulation execute the `ekf_doublependulum/main.py` file.
 
-![](imgs/EKF_dp_R005.png)
-***<p style="text-align: center;">EKF double pendulum results</p>***
+<center>
+<p>
+    <img src="imgs/EKF_dp_R005.png" alt>
+    <em>EKF double pendulum results</em>
+</p>
+</center>
